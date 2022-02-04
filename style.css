@@ -12,8 +12,8 @@ body, html, tr, td {
     background-color: #000000;
     color: #d8d8d8;
     font-family: "ZXSpectrum";
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 1em;
+    line-height: 1em;
 }
 
 .screen {
