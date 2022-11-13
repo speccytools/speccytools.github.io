@@ -22,11 +22,20 @@ body, html, tr, td {
     padding: 10px;
 }
 
+.underline {
+    border-bottom: 2px solid #1f1f1f;
+}
+
 .header {
-    background-color: #00d8d8;
-    color: #000000;
+    color: #00d8d8;
     padding: 4px;
     margin: 4px;
+}
+
+.header img {
+    margin: -4px;
+    padding: -4px;
+    min-height: 100%;
 }
 
 .bullet {
