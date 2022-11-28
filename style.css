@@ -1,9 +1,9 @@
 @font-face {
     font-family:"ZXSpectrum";
-    src:url("fonts/zxspectr.eot?") format("eot"),
-    url("fonts/zxspectr.woff") format("woff"),
-    url("fonts/zxspectr.ttf") format("truetype"),
-    url("fonts/zxspectr.svg#ZXSpectrum") format("svg");
+    src:url("/fonts/zxspectr.eot?") format("eot"),
+    url("/fonts/zxspectr.woff") format("woff"),
+    url("/fonts/zxspectr.ttf") format("truetype"),
+    url("/fonts/zxspectr.svg#ZXSpectrum") format("svg");
     font-weight:normal;font-style:normal;
 }
 
@@ -11,7 +11,6 @@ body, html, tr, td {
     font-family: "ZXSpectrum";
     background-color: #000000;
     color: #d8d8d8;
-    font-family: "ZXSpectrum";
     font-size: 1em;
     line-height: 1em;
 }
@@ -22,8 +21,24 @@ body, html, tr, td {
     padding: 10px;
 }
 
+.tags {
+    float: right;
+    color: #4e4e00;
+}
+
 .underline {
     border-bottom: 2px solid #1f1f1f;
+}
+
+.error {
+    color: red;
+}
+
+.active-page {
+    color: #000000;
+    background-color: #00ff00;
+    padding: 4px;
+    border-radius: 2px;
 }
 
 .header {
@@ -32,10 +47,44 @@ body, html, tr, td {
     margin: 4px;
 }
 
+.header a, .header a:visited {
+    color: #00d8d8 !important;
+}
+
+.header a:hover {
+    color: #000000 !important;
+    background-color: #00d8d8 !important;
+}
+
 .header img {
     margin: -4px;
     padding: -4px;
     min-height: 100%;
+}
+
+.search {
+    border-style: solid;
+    border-color: #001d2c;
+    border-width: 2px;
+    background: #000000;
+    color: #d8d8d8;
+    font-family: 'ZXSpectrum';
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.search:focus-visible {
+    outline: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #575757;
+  opacity: 1; /* Firefox */
+}
+
+.spacer {
+    padding: 4px;
 }
 
 .bullet {
@@ -54,6 +103,7 @@ a:hover {
     background-color: #00ff00;
     padding: 4px;
     margin: -4px;
+    border-radius: 2px;
 }
 
 @keyframes blink {

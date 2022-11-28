@@ -1,0 +1,33 @@
+<html>
+<head>
+<link rel="stylesheet" href="/style.css">
+<script type="application/javascript" src="/jquery-3.6.1.min.js"></script>
+</head>
+<body>
+<div class="screen">
+<div class="header"><img src="/images/plashque.png"> <a href="/">speccytools.org</a>/emu</div>
+<div class="bullet underline">Spectranet Emulator on a web browser</div>
+<div class="bullet"></div>
+
+<div class="bullet">An emulator, that's supports Spectranet, is coming soon.
+Meanwhile, you can load this resource by typing in an emulator that supports Spectranet:</div>
+
+<br/>
+
+<div class="bullet header" id="mount"></div>
+<div class="bullet header">%load""</div>
+
+<script type="application/javascript">
+    $(function() {
+        $('#mount').html('%mount 0, "' + new URLSearchParams(document.location.search).get("tnfs") + '"');
+    });
+</script>
+
+<br><br>
+<div class="bullet underline">Other resources</div>
+<div class="bullet"><a href="/index/">speccytools.org/index</a></div>
+<div class="bullet"><a href="/">Main Page</a></div>
+<div class="bullet"><span class="blink" id="L">L</span></div>
+</div>
+</body>
+</html>
