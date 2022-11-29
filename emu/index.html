@@ -19,9 +19,16 @@ Meanwhile, you can load this resource by typing in an emulator that supports Spe
 
 <script type="application/javascript">
     $(function() {
-        $('#mount').html('%mount 0, "' + new URLSearchParams(document.location.search).get("tnfs") + '"');
+        const url = new URLSearchParams(document.location.search).get("tnfs");
+        $('#mount').html('%mount 0, "' + url + '"');
+
+        $('#tg-link').html('<a href="tnfs://' + url + '">tnfs://' + url + '</a>')
     });
 </script>
+
+<br><br>
+<div class="bullet underline">Link for Es.pectrum (has to be enabled in options)</div>
+<div class="bullet" id="tg-link"></div>
 
 <br><br>
 <div class="bullet underline">Other resources</div>
