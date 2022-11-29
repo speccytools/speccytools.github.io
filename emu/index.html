@@ -9,27 +9,46 @@
 <div class="bullet underline">Spectranet Emulator on a web browser</div>
 <div class="bullet"></div>
 
-<div class="bullet">An emulator with Spectranet support, is coming soon.
-Meanwhile, you can load this resource by typing in an emulator that supports Spectranet:</div>
+<div class="bullet">An emulator with Spectranet support, is coming soon.</div>
 
 <br/>
 
-<div class="bullet header" id="mount"></div>
-<div class="bullet header">%load""</div>
+<div id="load-instructions"></div>
+
+<div class="bullet header"></div>
 
 <script type="application/javascript">
     $(function() {
         const url = new URLSearchParams(document.location.search).get("tnfs");
-        $('#mount').html('%mount 0, "' + url + '"');
 
-        $('#tg-link').html('<a href="tnfs://' + url + '">tnfs://' + url + '</a>')
+        if (url) {
+
+            $('<div class="bullet underline">Access resource from your speccy</div>' +
+                '<div class="bullet header">%mount 0, "' + url + '"</div>' +
+                '<div class="bullet header">%load""</div>').appendTo($('#load-instructions'));
+
+            $('<div class="bullet underline">Link for Es.pectrum (has to be enabled in options)</div>' +
+                '<div class="bullet"><a href="tnfs://' + url + '">tnfs://' + url + '</a></div>')
+                .appendTo($('#tnfs-link'));
+
+            var disqus_config = function () {
+                this.page.url = 'https://speccytools.org/emu';
+                this.page.identifier = url;
+            };
+
+            var d = document, s = d.createElement('script');
+            s.src = 'https://speccytools.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+
+            $('<br><br><div class="bullet underline">Comments</div>').appendTo($('#disqus-comments-title'));
+        }
     });
 </script>
 
-<br><br>
-<div class="bullet underline">Link for Es.pectrum (has to be enabled in options)</div>
-<div class="bullet" id="tg-link"></div>
-
+<div id="tnfs-link"></div>
+<div id="disqus-comments-title"></div>
+<div id="disqus_thread"></div>
 <br><br>
 <div class="bullet underline">Other resources</div>
 <div class="bullet"><a href="/index/">speccytools.org/index</a></div>
