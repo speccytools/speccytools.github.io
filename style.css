@@ -23,7 +23,18 @@ body, html, tr, td {
 
 .tags {
     float: right;
-    color: #4e4e00;
+    color: #c6c600 !important;
+    padding: 4px !important;
+}
+
+.tags:hover {
+    float: right;
+    background-color: #ffff00 !important;
+    color: #000000 !important;
+
+    padding: 4px !important;
+    margin: 0 !important;
+
 }
 
 .underline {
@@ -70,7 +81,7 @@ body, html, tr, td {
     color: #d8d8d8;
     font-family: 'ZXSpectrum';
     padding: 8px;
-    font-size: 16px;
+    font-size: 1em;
     width: 100%;
 }
 

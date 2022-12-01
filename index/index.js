@@ -150,7 +150,13 @@ $(function () {
                 $('<div>' + values.title + '</div>').appendTo(content);
             }
             if ('tags' in values) {
-                $('<span class="tags">' + values.tags + '</span>').appendTo(entry);
+                for (const tag of values.tags.split(",")) {
+                    $('<a class="tags" href="#">' + tag + '</a>').click(() => {
+                        $('#content-header input').val(tag);
+                        query = tag;
+                        render(entries, offset, limit);
+                    }).appendTo(entry);
+                }
             }
 
             $('<br/>').appendTo(content);
