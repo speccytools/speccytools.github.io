@@ -3,6 +3,14 @@
 <link rel="stylesheet" href="/style.css">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <script type="application/javascript" src="/jquery-3.6.1.min.js"></script>
+<script src="jsspeccy/jsspeccy.js"></script>
+<style>
+    #jsspeccy {
+        width: 640px;
+        margin: auto;
+        background-color: white;
+    }
+</style>
 <title>speccytools.org emulator</title>
 </head>
 <body>
@@ -11,7 +19,7 @@
 <div class="bullet underline">Spectranet Emulator on a web browser</div>
 <div class="bullet"></div>
 
-<div class="bullet">An emulator with Spectranet support, is coming soon.</div>
+<div class="bullet" id="jsspeccy"></div>
 
 <br/>
 
@@ -22,6 +30,8 @@
 <script type="application/javascript">
     $(function() {
         const url = new URLSearchParams(document.location.search).get("tnfs");
+
+        emu = JSSpeccy(document.getElementById('jsspeccy'), {zoom: 2, sandbox: false, machine: 49, tnfs: url})
 
         if (url) {
 
@@ -54,6 +64,7 @@
 <br><br>
 <div class="bullet underline">Other resources</div>
 <div class="bullet"><a href="/index/">speccytools.org/index</a></div>
+<div class="bullet"><a href="https://github.com/speccytools/jsspeccy3">Source Code</a></div>
 <div class="bullet"><a href="/">Main Page</a></div>
 <div class="bullet"><span class="blink" id="L">L</span></div>
 </div>
