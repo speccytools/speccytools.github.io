@@ -51,6 +51,7 @@ $(function () {
 
         // one root index for now
         await fetchIndex(database, indexes, "index.speccytools.org");
+        await fetchIndex(database, indexes, "tnfs.robertmorrison.me");
 
         const entries = [];
         for (let key in database) {
