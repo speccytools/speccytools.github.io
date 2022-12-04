@@ -3,11 +3,11 @@ $(function () {
         try
         {
             $("#content").html("Fetching index " + index + "...");
-            const response = await $.getJSON("https://networkcalc.com/api/dns/lookup/" + index);
+            const response = await $.getJSON("https://dns.google/resolve?name=" + index + '&type=TXT');
 
-            if (response.records && response.records.TXT) {
-                for (let record of response.records.TXT) {
-                    const recordOptions = record.split(";");
+            if (response.Answer) {
+                for (let record of response.Answer) {
+                    const recordOptions = record.data.split(";");
                     const values = {};
                     for (let recordOption of recordOptions) {
                         const kv = recordOption.split("=");
