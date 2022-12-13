@@ -32,7 +32,7 @@
         const url = new URLSearchParams(document.location.search).get("tnfs");
 
         emu = JSSpeccy(document.getElementById('jsspeccy'), {
-            zoom: 2, sandbox: false, machine: 49, tnfs: url, proxyURL: 'wss://proxy.speccytools.org'
+            zoom: 2, sandbox: false, machine: 49, tnfs: url, proxyURL: 'wss://proxy.speccytools.org:4430'
         })
 
         if (url) {
