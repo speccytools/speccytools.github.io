@@ -117,6 +117,17 @@ a:hover {
     border-radius: 2px;
 }
 
+.pad-a {
+    padding: 0.3em;
+    margin: 0.2em;
+    display: inline-block;
+}
+
+.pad-a:hover {
+    padding: 0.3em;
+    margin: 0.2em;
+}
+
 @keyframes blink {
     50% {
         color: #000000;
