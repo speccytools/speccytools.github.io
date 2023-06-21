@@ -10,6 +10,13 @@ JSZip uses the library pako released under the MIT license :
 https://github.com/nodeca/pako/blob/master/LICENSE
 */
 
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
 
