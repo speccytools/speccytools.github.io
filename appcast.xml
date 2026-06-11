@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>FuseX</title>
+        <item>
+            <title>1.8.0-fusex-0.5</title>
+            <pubDate>Thu, 11 Jun 2026 17:18:42 +0200</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.8.0-fusex-0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/speccytools/fusex/releases/download/1.8.0-fusex-0.5/FuseX-1.8.0-fusex-0.5.dmg" length="5479970" type="application/octet-stream" sparkle:edSignature="mifnSOwEQlMXcAu3Zyrbvs4QNZ+JrZV44yThIf6V24JjAusheD5jTUO4lCUnVn3eFwLKDzEIgqKyLjbz4QgUBA=="/>
+        </item>
+    </channel>
+</rss>
