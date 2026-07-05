@@ -3,12 +3,12 @@
     <channel>
         <title>FuseX</title>
         <item>
-            <title>1.8.0-fusex-0.5</title>
-            <pubDate>Thu, 11 Jun 2026 18:09:32 +0200</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.8.0-fusex-0.5</sparkle:shortVersionString>
+            <title>1.8.0-fusex-0.6</title>
+            <pubDate>Sun, 05 Jul 2026 16:38:14 +0200</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.8.0-fusex-0.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/speccytools/fusex/releases/download/1.8.0-fusex-0.5/FuseX-1.8.0-fusex-0.5.dmg" length="5478158" type="application/octet-stream" sparkle:edSignature="NS0UEMZBC5V/RXpSc1cKnHlHI9+v1QuatGE7xBeKnSrB423FIaspBQQIGlrwo5UUuORYQG6T98ikFrJe/1c3DQ=="/>
+            <enclosure url="https://github.com/speccytools/fusex/releases/download/1.8.0-fusex-0.6/FuseX-1.8.0-fusex-0.6.dmg" length="5771449" type="application/octet-stream" sparkle:edSignature="Twx9O9q6uV63X9a+taF2e/wbGsZjSUHAxr5BTj2MFzuRY4YxuyW1VONkJnvGNb+xiFc1rtt+uG8bChKYD3U1Bg=="/>
         </item>
     </channel>
 </rss>
