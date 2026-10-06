@@ -3,12 +3,12 @@
     <channel>
         <title>FuseX</title>
         <item>
-            <title>1.9.2-fusex-0.1</title>
-            <pubDate>Wed, 02 Sep 2026 21:11:55 +0200</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.9.2-fusex-0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/speccytools/fusex/releases/download/1.9.2-fusex-0.1/FuseX-1.9.2-fusex-0.1.dmg" length="5956888" type="application/octet-stream" sparkle:edSignature="wS0m+nHCPm0tc7LmsL3q6H0TiQhHcdthEBetQzD/xkQe9lX9vIqSE0Kg4XWIW+Id9yabxIha8zeGWOIEaXVwAg=="/>
+            <title>1.10.0-fusex-0.1</title>
+            <pubDate>Tue, 06 Oct 2026 02:17:52 +0200</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.10.0-fusex-0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/speccytools/fusex/releases/download/1.10.0-fusex-0.1/FuseX-1.10.0-fusex-0.1.dmg" length="7546003" type="application/octet-stream" sparkle:edSignature="6nkyTLjsJgQLcDQOOQ7CkAS9oPLnxR7PrW/TVsT7XuvAsjd9NVa1v/jFrT208Cb15rSsy1JCiIgiUFgGNTI+Bg=="/>
         </item>
     </channel>
 </rss>
