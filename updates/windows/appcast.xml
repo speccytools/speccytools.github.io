@@ -5,13 +5,13 @@
     <description>Most recent FuseX releases for Windows</description>
     <language>en</language>
     <item>
-      <title>Version 1.10.1-fusex-0.2</title>
-      <sparkle:version>1.10.1-fusex-0.2</sparkle:version>
-      <pubDate>Sun, 15 Nov 2026 00:52:25 +0000</pubDate>
-      <enclosure url="https://github.com/speccytools/fusex/releases/download/1.10.1-fusex-0.2/fusex-1.10.1-fusex-0.2-windows-x64-setup.exe"
+      <title>Version 1.10.1-fusex-0.3</title>
+      <sparkle:version>1.10.1-fusex-0.3</sparkle:version>
+      <pubDate>Mon, 16 Nov 2026 00:33:54 +0000</pubDate>
+      <enclosure url="https://github.com/speccytools/fusex/releases/download/1.10.1-fusex-0.3/fusex-1.10.1-fusex-0.3-windows-x64-setup.exe"
                  sparkle:os="windows-x64"
                  sparkle:installerArguments="/S"
-                 length="10865043"
+                 length="10865195"
                  type="application/octet-stream" />
     </item>
   </channel>
